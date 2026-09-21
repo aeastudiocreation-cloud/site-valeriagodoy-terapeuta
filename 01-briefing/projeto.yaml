@@ -1,0 +1,92 @@
+empresa:
+  nome: "Valéria Godoy Terapeuta Emocional"
+  segmento: "Terapia TRG - Terapia de Reprocessamento Generativo"
+  cidade: "Santa Bárbara d'Oeste"
+  estado: "São Paulo"
+  pais: "BR"
+  telefone: "5519920009231"
+  whatsapp: "5519920009231"
+  endereco: "Rua Romeu Fornazzari, 120, Bloco F, Apartamento 303, Bairro Dona Regina, Santa Bárbara d'Oeste - SP"
+  razao_social: ""
+  cnpj: ""
+  horario: ""
+  horario_estruturado:
+    seg_sex: ""
+    sabado: ""
+    domingo: ""
+  latitude: "-22.7365533"
+  longitude: "-47.3669841"
+  price_range: "$$"
+  bairros_atendidos: "Dona Regina e atendimento online para pessoas de qualquer lugar do mundo"
+  google_maps_iframe: "https://www.google.com/maps/place/Jardim+Dona+Regina,+Santa+B%C3%A1rbara+d'Oeste+-+SP,+Brasil/@-22.7638281,-47.4197057,15.25z/data=!4m6!3m5!1s0x94c89b88cf5ac189:0x107a3109315dfdc7!8m2!3d-22.7365533!4d-47.3669841!16s%2Fg%2F1ymsyh77r?hl=pt-BR&entry=ttu"
+  logo_path: "/assets/img/logo.png"
+  redes_sociais:
+    instagram: "https://www.instagram.com/valeriagodoyterapeuta/"
+    facebook: "https://www.facebook.com/valeriagodoy.terapeuta/"
+    threads: "https://www.threads.com/@valeriagodoyterapeuta"
+
+branding:
+  tom: "Acolhedor"
+  paleta:
+    primaria: "#A9D6F2"
+    secundaria: "#3175B9"
+    dourado_metalico: "#C9A45C"
+    bege_champagne: "#E8D8C4"
+    fundo: "#F9FAFD"
+    texto: "#102D59"
+
+seo:
+  palavra_chave_principal: "Terapeuta TRG em Santa Bárbara d'Oeste"
+  palavras_secundarias:
+    - "Terapia TRG online"
+    - "Terapeuta emocional"
+    - "Terapia de Reprocessamento Generativo"
+    - "Reprocessamento de traumas"
+    - "Terapia para ansiedade"
+    - "Terapia para síndrome do pânico"
+    - "Terapia para depressão"
+    - "Terapia emocional online"
+  area_atuacao: "Santa Bárbara d'Oeste, São Paulo, Brasil e atendimento online para pessoas de qualquer lugar do mundo"
+
+servicos:
+  - nome: "Reprocessamento de Traumas e Fobias"
+    descricao: "Abordagem focada no reprocessamento da carga emocional associada a experiências dolorosas do passado, traumas, medos e fobias."
+    slug: "reprocessamento-de-traumas-e-fobias"
+
+  - nome: "Resolução de Ansiedade e Síndrome do Pânico"
+    descricao: "Atendimento direcionado a pessoas que enfrentam ansiedade e crises de pânico, com foco no reprocessamento emocional e na busca por maior estabilidade."
+    slug: "terapia-para-ansiedade-e-sindrome-do-panico"
+
+  - nome: "Tratamento de Depressão e Vazio Existencial"
+    descricao: "Sessões voltadas ao acolhimento e ao trabalho terapêutico com sintomas depressivos, perdas, lutos não resolvidos e sentimentos de falta de sentido na vida."
+    slug: "terapia-para-depressao-e-vazio-existencial"
+
+diferenciais:
+  - "Foco na resolução das questões emocionais, e não apenas no aprendizado de como conviver com elas."
+  - "Metodologia de terapia breve estruturada para um processo terapêutico objetivo e direcionado."
+  - "Protocolo organizado em 5 etapas, com abordagem prática e integral do ser humano."
+
+prova_social:
+  - tipo: "Avaliação no Google"
+    nota: "5"
+    quantidade: "1"
+  - tipo: "Depoimentos de clientes"
+    quantidade: ""
+    observacao: "Depoimentos longos serão inseridos diretamente no site."
+
+publico_alvo:
+  - "Adultos com ansiedade, síndrome do pânico, depressão ou esgotamento emocional."
+  - "Adultos que enfrentam traumas, lutos e experiências dolorosas do passado."
+  - "Pessoas que buscam uma abordagem terapêutica breve e estruturada."
+  - "Indivíduos que enfrentam bloqueios emocionais, inseguranças e crenças limitantes."
+
+objecoes_clientes:
+  - "Medo de reviver traumas e dores passadas durante o processo terapêutico."
+  - "Dúvidas sobre a eficácia de uma terapia breve em questões emocionais complexas."
+  - "Insegurança sobre a segurança, conexão e profundidade do atendimento online."
+  - "Frustração com tratamentos anteriores que não atenderam às suas expectativas."
+  - "Receio de não conseguir se expressar ou de ser julgado durante as sessões."
+
+cta_principal: "Falar no WhatsApp"
+
+dominio: "valeriagodoyterapeuta.com"
