@@ -21,7 +21,6 @@ RewriteRule ^index\.html$ / [R=301,L]
 # Regra B: Reescrita interna (site.com/sobre -> conteúdo do sobre.html)
 # Se o arquivo com .html existir, carrega ele internamente
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}.html -f
 RewriteRule ^(.*)$ $1.html [L]
 
