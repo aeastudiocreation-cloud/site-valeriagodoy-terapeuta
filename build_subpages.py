@@ -271,14 +271,14 @@ b3 = blog_post_template.format(
     title="Terapia TRG para depressão: o que saber antes de buscar atendimento?",
     date="05 de Setembro de 2026",
     img_url="/assets/img/blog-3.jpg",
-    toc_html="<li>A importância da avaliação clínica</li><li>O acolhimento da dor</li><li>Os limites da terapia</li>",
-    content_html="""<p>Informações sobre sofrimento emocional, depressão e a importância da avaliação adequada.</p>
-    <h2 class="font-fraunces text-navy text-xl mt-8 mb-4">A importância da avaliação clínica</h2>
-    <p>A TRG é complementar e lida com dores da alma, mas quadros depressivos severos necessitam sempre de parecer médico. O acompanhamento em conjunto gera resultados mais consistentes.</p>""",
+    toc_html="<li>O poder do reprocessamento emocional</li><li>O acolhimento da dor</li><li>Os limites da terapia</li>",
+    content_html="""<p>Informações sobre sofrimento emocional, depressão e o poder do reprocessamento.</p>
+    <h2 class="font-fraunces text-navy text-xl mt-8 mb-4">O poder do reprocessamento emocional</h2>
+    <p>A TRG atua diretamente nas dores da alma e nas raízes emocionais dos estados depressivos. Ao focar no reprocessamento do seu histórico emocional, buscamos fortalecer a sua base para que você recupere a alegria de viver.</p>""",
     faq_html="""
         <div x-data="{ open: false }" class="border-b border-gray-200 pb-4">
-          <button @click="open = !open" class="flex justify-between w-full text-left font-fraunces text-navy text-lg"><span>Preciso de psiquiatra para fazer TRG?</span><span x-text="open ? '−' : '+'" class="text-[#C9A227] text-2xl"></span></button>
-          <div x-show="open" x-collapse class="mt-4 text-gray-700">Nem sempre, mas nos casos de depressão diagnosticada, a TRG caminhará de mãos dadas com a recomendação médica.</div>
+          <button @click="open = !open" class="flex justify-between w-full text-left font-fraunces text-navy text-lg"><span>A TRG pode ajudar na depressão?</span><span x-text="open ? '−' : '+'" class="text-[#C9A227] text-2xl"></span></button>
+          <div x-show="open" x-collapse class="mt-4 text-gray-700">Sim, a TRG trabalha no reprocessamento dos traumas e bloqueios emocionais que frequentemente estão na base dos estados depressivos, oferecendo uma forma profunda de aliviar esse peso.</div>
         </div>
     """
 )
