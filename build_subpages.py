@@ -50,7 +50,7 @@ servico_template = """
         <h2 class="text-white text-2xl font-fraunces mb-2">Vamos conversar?</h2>
         <p class="text-white/80 text-sm">Se você deseja conhecer o atendimento para {title_short}, fale com Valéria Godoy.</p>
       </div>
-      <a class="btn btn--zap" href="https://wa.me/5519920009231" target="_blank">Falar com Valéria Godoy</a>
+      <a class="btn btn--zap" href="https://wa.me/5519920009231" target="_blank">Falar com a Valéria Godoy</a>
     </div>
   </section>
 </div>
@@ -102,7 +102,7 @@ blog_post_template = """
       <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-[#B8860B] via-[#F3E0A1] to-[#9C7416]"></div>
       <h2 class="text-white text-2xl font-fraunces mb-4">Deseja iniciar seu reprocessamento emocional?</h2>
       <p class="text-white/80 text-sm mb-8">O primeiro passo é uma conversa para entender o seu momento.</p>
-      <a class="btn btn--zap inline-flex" href="https://wa.me/5519920009231" target="_blank">Falar com Valéria Godoy no WhatsApp</a>
+      <a class="btn btn--zap inline-flex" href="https://wa.me/5519920009231" target="_blank">Falar com a Valéria Godoy</a>
     </div>
   </section>
 </div>

@@ -344,7 +344,7 @@ raw_text = r"""
 341:         <p>Buscar apoio é uma decisão pessoal. Se você deseja conhecer a Terapia TRG, entender como funciona o atendimento ou tirar dúvidas sobre as sessões, Valéria Godoy está disponível para conversar com você.</p>
 342:       </div>
 343:       <div class="acoes">
-344:         <a class="btn btn--zap" href="https://wa.me/5519920009231" target="_blank" rel="noopener">Falar com Valéria Godoy</a>
+344:         <a class="btn btn--zap" href="https://wa.me/5519920009231" target="_blank" rel="noopener">Falar com a Valéria Godoy</a>
 345:       </div>
 346:       <p style="font-size:var(--t-sm);color:var(--cinza);margin-top:var(--e3)">Entre em contato para consultar horários, condições de atendimento e os próximos passos.</p>
 347:     </div>

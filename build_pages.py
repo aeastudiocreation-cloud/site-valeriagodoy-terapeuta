@@ -64,7 +64,7 @@ sobre_content = """
         <p class="text-white/80">Buscar apoio é uma decisão pessoal. Se você deseja conhecer a Terapia TRG, entender como funciona o atendimento ou tirar dúvidas sobre as sessões, Valéria Godoy está disponível para conversar com você.</p>
       </div>
       <div class="flex flex-col gap-4 min-w-[240px]">
-        <a class="btn btn--zap w-full text-center" href="https://wa.me/5519920009231" target="_blank">Falar com Valéria Godoy</a>
+        <a class="btn btn--zap w-full text-center" href="https://wa.me/5519920009231" target="_blank">Falar com a Valéria Godoy</a>
       </div>
     </div>
   </section>
