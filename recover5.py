@@ -387,7 +387,10 @@ raw_text = r"""
 384:     </div>
 385: 
 386:     <div class="footer__base">
-387:       <span>© 2026 Valéria Godoy · Terapeuta TRG · Atendimento Online</span>
+387:       <div style="display: flex; flex-direction: column; gap: 0.25rem;">
+<span>© 2026 Valéria Godoy · Terapeuta TRG · Atendimento Online</span>
+<span style="font-size: 0.85em; opacity: 0.8;">Site desenvolvido por <a href="https://aeawebstudio.com/" target="_blank" rel="noopener" style="text-decoration: underline;">A&Ä Studio</a></span>
+</div>
 388:       <span>A TRG é abordagem complementar e não substitui tratamento médico ou psicológico.</span>
 389:       <span><a href="/contato" >Política de privacidade</a></span>
 390:     </div>
