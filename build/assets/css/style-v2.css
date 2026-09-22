@@ -449,3 +449,23 @@ body{padding-bottom:84px}
     height: 22px !important;
   }
 }
+
+/* MOBILE CTA-FINAL FIX */
+@media (max-width: 768px) {
+  .cta-final {
+    padding: 3rem 1.5rem !important;
+    text-align: center !important;
+  }
+  .cta-final .acoes {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: stretch !important;
+    gap: 1rem !important;
+    width: 100% !important;
+  }
+  .cta-final .btn {
+    width: 100% !important;
+    margin: 0 !important;
+    text-align: center !important;
+  }
+}
