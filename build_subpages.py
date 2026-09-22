@@ -196,12 +196,49 @@ b1 = blog_post_template.format(
     title="O que é Terapia TRG e como funciona o Reprocessamento Generativo?",
     date="15 de Setembro de 2026",
     img_url="/assets/img/blog-1.jpg",
-    toc_html="<li>O que significa TRG?</li><li>Como funciona o protocolo estruturado?</li><li>Como é uma sessão de TRG?</li>",
-    content_html="""<p>A Terapia de Reprocessamento Generativo, conhecida como TRG, é uma abordagem estruturada que trabalha questões emocionais por meio de um protocolo organizado em etapas. Conhecer sua proposta pode ajudar quem está considerando buscar atendimento a compreender melhor o método.</p>
-    <h2 class="font-fraunces text-navy text-xl mt-8 mb-4">O que significa TRG?</h2>
-    <p>TRG significa Terapia de Reprocessamento Generativo. A terapia consiste num trabalho focado não apenas em falar sobre o problema, mas em agir estruturalmente nos gatilhos emocionais que mantêm o ciclo de sofrimento.</p>
+    toc_html="<li>O que é a TRG?</li><li>Como funciona o protocolo estruturado?</li><li>Como é uma sessão de TRG?</li>",
+    content_html="""<p>A Terapia de Reprocessamento Generativo (TRG) é uma metodologia terapêutica projetada para resolver questões emocionais profundas, como traumas, fobias, compulsões, depressão e ansiedade.</p>
+    <p>Reconhecida pelo MEC e amplamente apoiada pelo CITRG – Conselho Internacional de Terapia de Reprocessamento Generativo, com seu Código de Ética e Disciplina Profissional.</p>
+    <h2 class="font-fraunces text-navy text-xl mt-8 mb-4">O que é a TRG?</h2>
+    <p>A TRG, ao contrário das terapias tradicionais, não depende exclusivamente de discussões verbais, mas trabalha diretamente com o inconsciente para acessar e reprocessar memórias emocionais armazenadas. Esse método permite transformar experiências negativas em lições positivas, melhorando o bem-estar psicológico e emocional dos clientes.</p>
     <h2 class="font-fraunces text-navy text-xl mt-8 mb-4">Como funciona o protocolo estruturado em cinco etapas?</h2>
-    <p>O acompanhamento é feito com etapas claras que organizam as sessões, oferecendo começo, meio e fim para os recortes trabalhados.</p>""",
+    <div class="mt-8 space-y-4">
+        <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl" style="background-color: #f76b59;">1</div>
+            <div>
+                <h3 class="font-fraunces text-lg text-navy mb-1" style="color: #ea8d22;">Cronológico</h3>
+                <p class="text-gray-600 leading-relaxed text-sm">Explora a linha do tempo da sua vida, identificando eventos e traumas passados que influenciam o presente.</p>
+            </div>
+        </div>
+        <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl" style="background-color: #8c2844;">2</div>
+            <div>
+                <h3 class="font-fraunces text-lg text-navy mb-1" style="color: #ea8d22;">Somático</h3>
+                <p class="text-gray-600 leading-relaxed text-sm">Trabalha as sensações e tensões físicas do corpo relacionadas às emoções não processadas.</p>
+            </div>
+        </div>
+        <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl" style="background-color: #f19a38;">3</div>
+            <div>
+                <h3 class="font-fraunces text-lg text-navy mb-1" style="color: #ea8d22;">Temático</h3>
+                <p class="text-gray-600 leading-relaxed text-sm">Reprocessa temas recorrentes e padrões de comportamento indesejados em diferentes áreas da vida.</p>
+            </div>
+        </div>
+        <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl" style="background-color: #63a8e1;">4</div>
+            <div>
+                <h3 class="font-fraunces text-lg text-navy mb-1" style="color: #ea8d22;">Futuro</h3>
+                <p class="text-gray-600 leading-relaxed text-sm">Libera ansiedades e preocupações sobre o futuro, construindo novas perspectivas positivas.</p>
+            </div>
+        </div>
+        <div class="flex items-start gap-4 p-4 rounded-xl bg-white border border-gray-100 shadow-sm">
+            <div class="flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-xl" style="background-color: #8cd6a5;">5</div>
+            <div>
+                <h3 class="font-fraunces text-lg text-navy mb-1" style="color: #ea8d22;">Potencialização</h3>
+                <p class="text-gray-600 leading-relaxed text-sm">Ativa e fortalece os seus recursos internos, habilidades e o seu máximo potencial.</p>
+            </div>
+        </div>
+    </div>""",
     faq_html="""
         <div x-data="{ open: false }" class="border-b border-gray-200 pb-4">
           <button @click="open = !open" class="flex justify-between w-full text-left font-fraunces text-navy text-lg"><span>Como é uma sessão de TRG?</span><span x-text="open ? '−' : '+'" class="text-[#C9A227] text-2xl"></span></button>

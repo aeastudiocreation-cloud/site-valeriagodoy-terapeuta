@@ -229,18 +229,22 @@ def build_blog(title, content, date, file_path, img):
         f.write(final_html)
 
 b1 = """
-<p class="abertura" style="font-size:var(--t-lg)">A Terapia de Reprocessamento Generativo, conhecida como TRG, é uma abordagem inovadora criada pelo psicólogo Jair Soares dos Santos. O foco é trabalhar questões emocionais profundas acessando o inconsciente de forma estruturada e em etapas.</p>
+<p class="abertura" style="font-size:var(--t-lg)">A Terapia de Reprocessamento Generativo (TRG) é uma metodologia terapêutica projetada para resolver questões emocionais profundas, como traumas, fobias, compulsões, depressão e ansiedade.</p>
 
-<h2 style="margin-top:var(--e7)">O que significa TRG e como ela atua?</h2>
-<p>A sigla significa Terapia de Reprocessamento Generativo. Reconhecida pelo MEC e apoiada pelo CITRG, ela se diferencia das terapias tradicionais porque não depende exclusivamente de discussões verbais. O método trabalha diretamente com o inconsciente para reprocessar memórias emocionais armazenadas, transformando experiências negativas em lições positivas.</p>
+<p>Reconhecida pelo MEC e amplamente apoiada pelo CITRG – Conselho Internacional de Terapia de Reprocessamento Generativo, com seu Código de Ética e Disciplina Profissional.</p>
+
+<h2 style="margin-top:var(--e7)">Como a TRG atua?</h2>
+<p>A TRG, ao contrário das terapias tradicionais, não depende exclusivamente de discussões verbais, mas trabalha diretamente com o inconsciente para acessar e reprocessar memórias emocionais armazenadas. Esse método permite transformar experiências negativas em lições positivas, melhorando o bem-estar psicológico e emocional dos clientes.</p>
 
 <h2 style="margin-top:var(--e7)">As 5 etapas da TRG</h2>
-<p>O método funciona através de cinco passos estruturados e eficazes para libertar amarras emocionais:
-<br><br><b>Cronológico:</b> Reprocessa eventos desde o nascimento até o presente.
-<br><b>Somático:</b> Concentra-se na liberação de tensões físicas associadas a traumas.
-<br><b>Temático:</b> Foca nos temas centrais dolorosos da vida, transformando crenças limitantes.
-<br><b>Futuro:</b> Trata medos e preocupações em relação ao amanhã, desenvolvendo resiliência.
-<br><b>Potencialização:</b> Reforça a motivação e capacidade para alcançar os objetivos e um futuro melhor.</p>
+<p>O método funciona através de cinco passos estruturados e eficazes para libertar amarras emocionais:</p>
+<ul style="list-style: none; padding: 0; margin-top: 1.5rem; display: flex; flex-direction: column; gap: 1rem;">
+    <li><b style="color: #f76b59;">1. Cronológico:</b> Explora a linha do tempo da sua vida, identificando eventos e traumas passados que influenciam o presente.</li>
+    <li><b style="color: #8c2844;">2. Somático:</b> Trabalha as sensações e tensões físicas do corpo relacionadas às emoções não processadas.</li>
+    <li><b style="color: #f19a38;">3. Temático:</b> Reprocessa temas recorrentes e padrões de comportamento indesejados em diferentes áreas da vida.</li>
+    <li><b style="color: #63a8e1;">4. Futuro:</b> Libera ansiedades e preocupações sobre o futuro, construindo novas perspectivas positivas.</li>
+    <li><b style="color: #8cd6a5;">5. Potencialização:</b> Ativa e fortalece os seus recursos internos, habilidades e o seu máximo potencial.</li>
+</ul>
 
 <h2 style="margin-top:var(--e7)">Para quem é indicada e quais as suas vantagens?</h2>
 <p>Por ser uma terapia breve, a TRG foca em resolver o problema de forma efetiva. É indicada para todas as faixas etárias e trata com sucesso síndromes de pânico, ansiedade severa, fobias, traumas emocionais profundos, luto não resolvido e casos de depressão.</p>
