@@ -38,7 +38,8 @@ if div_faq:
     # Append after the faq div, inside the grudado wrap
     wrap = div_faq.find_parent('div', class_='wrap')
     if wrap:
-        wrap.append(bs4.BeautifulSoup(cta_html, 'html.parser').div)
+        cta_faq_html = '<div style="margin-top:var(--e6); text-align: center; width: 100%;"><a class="btn btn--zap" href="https://wa.me/5519920009231" rel="noopener" target="_blank">Falar com a Terapeuta</a></div>'
+        wrap.append(bs4.BeautifulSoup(cta_faq_html, 'html.parser').div)
 
 with open(filepath, 'w', encoding='utf-8') as f:
     f.write(str(soup))
