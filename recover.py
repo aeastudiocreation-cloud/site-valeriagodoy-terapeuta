@@ -24,8 +24,8 @@ for line in reversed(list(open(log_file, 'r', encoding='utf-8'))):
                 
                 recovered = '\n'.join(file_lines)
                 
-                old_design = '        <div class="hero__retrato"><img src="/assets/img/valeria-godoy.jpg?v=3" alt="Consultório Valéria Godoy" style="width:100%; height:100%; object-fit:cover;"></div>\n        <div class="hero__selo">'
-                new_design = '      <div style="position: relative; z-index: 1;">\n        <div style="position: absolute; inset: 0; background: var(--ouro-grad); transform: translate(12px, 12px); border-radius: var(--r-lg); z-index: 0; opacity: 0.8; box-shadow: var(--sombra-1);"></div>\n        <div class="hero__retrato" style="position: relative; z-index: 1; border: 6px solid #fff; box-shadow: var(--sombra-2);"><img src="/assets/img/valeria-godoy.jpg?v=3" alt="Consultório Valéria Godoy" style="width:100%; height:100%; object-fit:cover;"></div>\n      </div>\n      <div class="hero__selo" style="position: relative; z-index: 2;">'
+                old_design = '        <div class="hero__retrato"><img src="/assets/img/valeria-godoy.webp" alt="Consultório Valéria Godoy" style="width:100%; height:100%; object-fit:cover;"></div>\n        <div class="hero__selo">'
+                new_design = '      <div style="position: relative; z-index: 1;">\n        <div style="position: absolute; inset: 0; background: var(--ouro-grad); transform: translate(12px, 12px); border-radius: var(--r-lg); z-index: 0; opacity: 0.8; box-shadow: var(--sombra-1);"></div>\n        <div class="hero__retrato" style="position: relative; z-index: 1; border: 6px solid #fff; box-shadow: var(--sombra-2);"><img src="/assets/img/valeria-godoy.webp" alt="Consultório Valéria Godoy" style="width:100%; height:100%; object-fit:cover;"></div>\n      </div>\n      <div class="hero__selo" style="position: relative; z-index: 2;">'
                 recovered = recovered.replace(old_design, new_design)
                 
                 old_bg = '<section class="wrap bloco" style="background: #D2B48C; padding-inline: var(--e4); max-width: 100%; padding-block: var(--e8);">'

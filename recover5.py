@@ -67,7 +67,7 @@ raw_text = r"""
 64: <main id="conteudo">
 65: <div class="pagina ativa" style="display:block;" id="p-home">
 66: 
-67:   <section class="hero" style="background: url('/assets/img/quem-somos.jpg?v=3') center/cover no-repeat; position: relative; padding-top: 8rem; padding-bottom: 12rem;">
+67:   <section class="hero" style="background: url('/assets/img/hero.webp') center/cover no-repeat; position: relative; padding-top: 8rem; padding-bottom: 12rem;">
 68:     <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.2);"></div>
 69:     <div class="wrap" style="position: relative; z-index: 1;">
 70:       <div style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(12px); padding: var(--e5) var(--e7); border-radius: var(--r-lg); max-width: 1100px; margin-inline: auto; text-align: center; box-shadow: var(--sombra-2);">
@@ -198,7 +198,7 @@ raw_text = r"""
 195:       <div>
 196:       <div style="position: relative; z-index: 1;">
 197:         <div style="position: absolute; inset: 0; background: var(--ouro-grad); transform: translate(12px, 12px); border-radius: var(--r-lg); z-index: 0; opacity: 0.8; box-shadow: var(--sombra-1);"></div>
-198:         <div class="hero__retrato" style="position: relative; z-index: 1; border: 6px solid #fff; box-shadow: var(--sombra-2);"><img src="/assets/img/valeria-godoy.jpg?v=3" alt="Consultório Valéria Godoy" style="width:100%; height:100%; object-fit:cover;"></div>
+198:         <div class="hero__retrato" style="position: relative; z-index: 1; border: 6px solid #fff; box-shadow: var(--sombra-2);"><img src="/assets/img/valeria-godoy.webp" alt="Consultório Valéria Godoy" style="width:100%; height:100%; object-fit:cover;"></div>
 199:       </div>
 200:       <div class="hero__selo" style="position: relative; z-index: 2;">
 201:           <b>Valéria Godoy</b>

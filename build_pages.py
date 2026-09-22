@@ -41,7 +41,7 @@ sobre_content = """
 
       <aside class="lg:col-span-1">
         <div class="sticky top-24">
-          <div class="w-full aspect-[3/4] bg-[#EAF3FB] rounded-2xl overflow-hidden mb-8" style="background-image: url('/assets/img/valeria-godoy.jpg'); background-size: cover;">
+          <div class="w-full aspect-[3/4] bg-[#EAF3FB] rounded-2xl overflow-hidden mb-8" style="background-image: url('/assets/img/valeria-godoy.webp'); background-size: cover;">
             <span class="sr-only">Valéria Godoy, terapeuta emocional TRG.</span>
           </div>
           <div class="card bg-[#F9FAFD] border border-gray-100 shadow-sm p-6 rounded-2xl">

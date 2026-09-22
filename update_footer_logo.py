@@ -22,13 +22,13 @@ def fix_file(f):
     
     # 2. Change the footer logo
     # The footer logo is inside `<footer class="footer">` which has `<div class="footer__grade">`
-    # Let's just use regex to replace logo-valeria.jpeg with logo.png ONLY in the footer.
+    # Let's just use regex to replace logo-valeria.webp with logo.png ONLY in the footer.
     
     # Find the footer section
     if '<footer' in content:
         parts = content.split('<footer', 1)
         footer_html = '<footer' + parts[1]
-        footer_html = footer_html.replace('logo-valeria.jpeg', 'logo.png')
+        footer_html = footer_html.replace('logo-valeria.webp', 'logo.png')
         content = parts[0] + footer_html
     
     try:

@@ -28,7 +28,7 @@ base_html = '''<!DOCTYPE html>
 
   <title>{title}</title>
   <meta name="description" content="{description}">
-  <link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/assets/img/favicon.png" type="image/png">
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

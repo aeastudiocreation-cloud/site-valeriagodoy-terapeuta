@@ -86,7 +86,7 @@ blog_post_template = """
 
       <!-- Author Box -->
       <div class="bg-[#F9FAFD] border border-gray-100 rounded-2xl p-6 flex flex-col sm:flex-row gap-6 items-center sm:items-start mb-16">
-        <div class="w-24 h-24 rounded-full bg-gray-200 overflow-hidden shrink-0" style="background-image: url('/assets/img/valeria-godoy-small.jpg'); background-size: cover;"></div>
+        <div class="w-24 h-24 rounded-full bg-gray-200 overflow-hidden shrink-0" style="background-image: url('/assets/img/valeria-godoy-small.webp'); background-size: cover;"></div>
         <div>
           <h3 class="font-fraunces text-navy text-xl">Valéria Godoy</h3>
           <p class="text-sm text-secondary mb-2">Terapeuta Emocional TRG</p>
