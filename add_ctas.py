@@ -29,7 +29,7 @@ if h2_depo:
     sec = h2_depo.find_parent('section')
     if sec:
         wrap = sec.find('div', class_='wrap')
-        cta_terapia_html = '<div style="margin-top:var(--e6); text-align: center; width: 100%;"><a class="btn btn--zap" href="https://wa.me/5519920009231" rel="noopener" target="_blank">Falar sobre a Terapia</a></div>'
+        cta_terapia_html = '<div style="margin-top:var(--e6); text-align: center; width: 100%; grid-column: 1 / -1;"><a class="btn btn--zap" href="https://wa.me/5519920009231" rel="noopener" target="_blank">Falar sobre a Terapia</a></div>'
         (wrap if wrap else sec).append(bs4.BeautifulSoup(cta_terapia_html, 'html.parser').div)
 
 # 4. FAQ
@@ -38,7 +38,7 @@ if div_faq:
     # Append after the faq div, inside the grudado wrap
     wrap = div_faq.find_parent('div', class_='wrap')
     if wrap:
-        cta_faq_html = '<div style="margin-top:var(--e6); text-align: center; width: 100%;"><a class="btn btn--zap" href="https://wa.me/5519920009231" rel="noopener" target="_blank">Falar com a Terapeuta</a></div>'
+        cta_faq_html = '<div style="margin-top:var(--e6); text-align: center; width: 100%; grid-column: 1 / -1;"><a class="btn btn--zap" href="https://wa.me/5519920009231" rel="noopener" target="_blank">Falar com a Terapeuta</a></div>'
         wrap.append(bs4.BeautifulSoup(cta_faq_html, 'html.parser').div)
 
 with open(filepath, 'w', encoding='utf-8') as f:
