@@ -418,27 +418,34 @@ body{padding-bottom:84px}
   *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
 }
 @media print{.header,.footer,.barra-zap,.btn{display:none}.pagina{display:block !important}}
-/* MOBILE FIXES: HERO ALIGNMENT & HEADER CTA */
+/* MOBILE FIXES: HERO ALIGNMENT & HEADER CTA (V2) */
 @media (max-width: 768px) {
+  .hero .trilho::before,
+  .hero .trilho::after {
+    display: none;
+  }
   .hero .trilho {
-    flex-wrap: wrap;
     justify-content: center;
   }
   .hero .trilho span {
     text-align: center;
+    font-size: 14px;
   }
   .header__acoes .btn--zap {
-    font-size: 0;
-    padding: 10px;
-    border-radius: 50%;
-    min-width: 44px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 0 !important;
+    padding: 0 !important;
+    width: 44px !important;
+    height: 44px !important;
+    min-width: 44px !important;
+    min-height: 44px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
   }
   .header__acoes .btn--zap svg {
-    margin: 0;
-    width: 20px;
-    height: 20px;
+    margin: 0 !important;
+    width: 22px !important;
+    height: 22px !important;
   }
 }
