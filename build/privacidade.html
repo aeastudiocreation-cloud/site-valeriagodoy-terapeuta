@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html class="scroll-smooth" lang="pt-BR">
 <head>
 <meta charset="utf-8"/>
@@ -109,7 +110,7 @@
       ]
     }
   ]
-}</script></head>
+}</script><style id="mobile-fixes">body, html { overflow-x: hidden; } img { max-width: 100%; height: auto; } a, button { min-height: 44px; min-width: 44px; }</style></head>
 <body class="bg-white text-[#3E5163] font-karla" x-data="{ menuOpen: false }">
 <!-- Header -->
 <header class="fixo bg-white/90 backdrop-blur border-b border-[#EAF3FB] z-50">
@@ -227,7 +228,7 @@
 <div class="footer__base border-t border-white/20 mt-12 pt-6 flex flex-col md:flex-row gap-4 justify-between text-sm text-white/60">
 <div style="display: flex; flex-direction: column; gap: 0.25rem;">
 <span>© 2026 Valéria Godoy · Terapeuta TRG</span>
-<span style="font-size: 0.85em; opacity: 0.8;">Site desenvolvido por <a href="https://aeawebstudio.com/" target="_blank" rel="noopener" style="text-decoration: underline;">A&Ä Studio</a></span>
+<span style="font-size: 0.85em; opacity: 0.8;">Site desenvolvido por <a href="https://aeawebstudio.com/" rel="noopener" style="text-decoration: underline;" target="_blank">A&amp;Ä Studio</a></span>
 </div>
 <span>A TRG é abordagem complementar e não substitui tratamento médico.</span>
 <span><a href="/privacidade">Política de privacidade</a></span>
@@ -249,5 +250,74 @@
 </div>
 </div>
 <script src="/assets/js/script.js"></script>
+
+<style>
+#cookie-consent-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 15px 20px;
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 9999;
+    font-size: 14px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+#cookie-consent-banner p { margin: 0; color: #333; flex: 1; min-width: 250px; }
+.cookie-btns { display: flex; gap: 10px; }
+.cookie-btns button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+}
+#btn-accept-cookies { background: #333; color: #fff; }
+#btn-reject-cookies { background: #eee; color: #333; }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    if (!localStorage.getItem('cookie_consent')) {
+        var banner = document.createElement('div');
+        banner.id = 'cookie-consent-banner';
+        banner.innerHTML = '<p>Utilizamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com a nossa <a href="/privacidade" style="text-decoration:underline;">Política de Privacidade</a>.</p>' +
+                           '<div class="cookie-btns"><button id="btn-reject-cookies">Recusar</button><button id="btn-accept-cookies">Aceitar</button></div>';
+        document.body.appendChild(banner);
+        
+        document.getElementById('btn-accept-cookies').addEventListener('click', function() {
+            localStorage.setItem('cookie_consent', 'accepted');
+            document.getElementById('cookie-consent-banner').style.display = 'none';
+            if (typeof gtag === 'function') {
+                gtag('consent', 'update', {
+                  'ad_storage': 'granted',
+                  'ad_user_data': 'granted',
+                  'ad_personalization': 'granted',
+                  'analytics_storage': 'granted'
+                });
+            }
+        });
+        document.getElementById('btn-reject-cookies').addEventListener('click', function() {
+            localStorage.setItem('cookie_consent', 'rejected');
+            document.getElementById('cookie-consent-banner').style.display = 'none';
+        });
+    } else if (localStorage.getItem('cookie_consent') === 'accepted') {
+        if (typeof gtag === 'function') {
+            gtag('consent', 'update', {
+              'ad_storage': 'granted',
+              'ad_user_data': 'granted',
+              'ad_personalization': 'granted',
+              'analytics_storage': 'granted'
+            });
+        }
+    }
+});
+</script>
+
 </body>
 </html>

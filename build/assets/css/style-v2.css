@@ -418,3 +418,27 @@ body{padding-bottom:84px}
   *{animation:none !important;transition:none !important;scroll-behavior:auto !important}
 }
 @media print{.header,.footer,.barra-zap,.btn{display:none}.pagina{display:block !important}}
+/* MOBILE FIXES: HERO ALIGNMENT & HEADER CTA */
+@media (max-width: 768px) {
+  .hero .trilho {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hero .trilho span {
+    text-align: center;
+  }
+  .header__acoes .btn--zap {
+    font-size: 0;
+    padding: 10px;
+    border-radius: 50%;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .header__acoes .btn--zap svg {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+  }
+}
