@@ -29,7 +29,8 @@ if h2_depo:
     sec = h2_depo.find_parent('section')
     if sec:
         wrap = sec.find('div', class_='wrap')
-        (wrap if wrap else sec).append(bs4.BeautifulSoup(cta_html, 'html.parser').div)
+        cta_terapia_html = '<div style="margin-top:var(--e6); text-align: center; width: 100%;"><a class="btn btn--zap" href="https://wa.me/5519920009231" rel="noopener" target="_blank">Falar sobre a Terapia</a></div>'
+        (wrap if wrap else sec).append(bs4.BeautifulSoup(cta_terapia_html, 'html.parser').div)
 
 # 4. FAQ
 div_faq = soup.find('div', class_='faq')
