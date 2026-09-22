@@ -249,8 +249,8 @@
     cursor: pointer;
     font-weight: 600;
 }
-#btn-accept-cookies { background: #333; color: #fff; }
-#btn-reject-cookies { background: #eee; color: #333; }
+#btn-accept-cookies-novo { background: #333; color: #fff; }
+#btn-reject-cookies-novo { background: #eee; color: #333; }
 </style>
 
 <script>
@@ -259,10 +259,10 @@ document.addEventListener("DOMContentLoaded", function() {
         var banner = document.createElement('div');
         banner.id = 'cookie-consent-banner';
         banner.innerHTML = '<p>Utilizamos cookies para melhorar sua experiência. Ao continuar navegando, você concorda com a nossa <a href="/privacidade" style="text-decoration:underline;">Política de Privacidade</a>.</p>' +
-                           '<div class="cookie-btns"><button id="btn-reject-cookies">Recusar</button><button id="btn-accept-cookies">Aceitar</button></div>';
+                           '<div class="cookie-btns"><button id="btn-reject-cookies-novo">Recusar</button><button id="btn-accept-cookies-novo">Aceitar</button></div>';
         document.body.appendChild(banner);
         
-        document.getElementById('btn-accept-cookies').addEventListener('click', function() {
+        document.getElementById('btn-accept-cookies-novo').addEventListener('click', function() {
             localStorage.setItem('cookie_consent', 'accepted');
             document.getElementById('cookie-consent-banner').style.display = 'none';
             if (typeof gtag === 'function') {
@@ -274,7 +274,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 });
             }
         });
-        document.getElementById('btn-reject-cookies').addEventListener('click', function() {
+        document.getElementById('btn-reject-cookies-novo').addEventListener('click', function() {
             localStorage.setItem('cookie_consent', 'rejected');
             document.getElementById('cookie-consent-banner').style.display = 'none';
         });
