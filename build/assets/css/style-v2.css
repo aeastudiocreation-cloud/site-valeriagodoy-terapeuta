@@ -482,3 +482,6 @@ body{padding-bottom:84px}
     display: none !important;
   }
 }
+
+/* REMOVE FIXED BOTTOM BAR ON MOBILE */
+.barra-zap { display: none !important; }
