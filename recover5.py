@@ -301,7 +301,7 @@ raw_text = r"""
 253:     </div>
 254:   </section>
 255: 
-256:   <section class="bloco bloco--curto bloco--bege">
+256:   <section class="bloco bloco--bege">
 257:     <div class="wrap duas-colunas--esq duas-colunas">
 258:       <div class="grudado">
 259:         <div class="trilho"><span>Dúvidas</span></div>
