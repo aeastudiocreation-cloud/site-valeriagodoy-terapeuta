@@ -76,7 +76,7 @@ raw_text = r"""
 73:         <p class="abertura" style="color: #000; text-shadow: none; margin-inline: auto;">A Terapia de Reprocessamento Generativo (TRG) é uma abordagem estruturada para trabalhar experiências dolorosas, padrões emocionais e situações que continuam afetando sua vida. Com Valéria Godoy, você encontra um espaço de escuta, respeito e acompanhamento individualizado, atendimento online, de onde estiver.</p>
 74:         <div class="hero__acoes" style="justify-content: center;">
 75:           <a class="btn btn--zap" href="https://wa.me/5519920009231" target="_blank" rel="noopener">Falar no WhatsApp</a>
-76:           <a class="btn" style="background: var(--champanhe); color: #000; border: none; font-weight: 600;" href="/servicos">Conheça a Terapia TRG</a>
+76:           <a class="btn" style="background: var(--champanhe); color: #000; border: none; font-weight: 600;" href="https://valeriagodoyterapeuta.com/blog/o-que-e-terapia-trg">Conheça a Terapia TRG</a>
 77:         </div>
 78:         <p style="font-size:var(--t-sm);color:#000;font-weight:500;margin:0;margin-inline:auto;">Dê o primeiro passo para compreender melhor o que você está vivendo e conhecer uma abordagem terapêutica que pode fazer sentido para o seu momento.</p>
 79:       </div>
