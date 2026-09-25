@@ -204,7 +204,7 @@ raw_text = r"""
 199:       </div>
 200:       <div class="hero__selo" style="position: relative; z-index: 2;">
 201:           <b>Valéria Godoy</b>
-202:           <p style="margin:var(--e2) 0 0;font-size:var(--t-sm);color:#333;text-align:center;">Terapeuta TRG especialista em acolhimento emocional.</p>
+202:           <p style="margin:var(--e2) 0 0;font-size:var(--t-sm);color:#333;text-align:center;">Master Terapeuta TRG</p>
 203:           <p style="margin:var(--e1) 0 0;font-size:var(--t-xs);color:var(--cinza);">CITRG 06.936</p>
 204:         </div>
 205:       </div>
