@@ -71,7 +71,7 @@ raw_text = r"""
 68:     <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.2);"></div>
 69:     <div class="wrap" style="position: relative; z-index: 1;">
 70:       <div style="background: rgba(255, 255, 255, 0.2); backdrop-filter: blur(12px); padding: var(--e5) var(--e7); border-radius: var(--r-lg); max-width: 1100px; margin-inline: auto; text-align: center; box-shadow: var(--sombra-2);">
-71:         <div class="trilho" style="justify-content: center;"><span>Terapeuta TRG em Santa Bárbara d'Oeste</span></div>
+71:         <div class="trilho" style="justify-content: center;"><span>Master Terapeuta TRG</span></div>
 72:         <h1 style="color: #000; text-shadow: none; margin-inline: auto;">Você não precisa enfrentar suas questões emocionais sem acolhimento.</h1>
 73:         <p class="abertura" style="color: #000; text-shadow: none; margin-inline: auto;">A Terapia de Reprocessamento Generativo (TRG) é uma abordagem estruturada para trabalhar experiências dolorosas, padrões emocionais e situações que continuam afetando sua vida. Com Valéria Godoy, você encontra um espaço de escuta, respeito e acompanhamento individualizado, atendimento online, de onde estiver.</p>
 74:         <div class="hero__acoes" style="justify-content: center;">
@@ -188,7 +188,7 @@ raw_text = r"""
 185:       <div>
 186:         <div class="trilho"><span>Quem somos</span></div>
 187:         <h2 style="margin-top:var(--e3)">Terapia emocional com acolhimento e direcionamento</h2>
-188:         <p>A Valéria Godoy Terapeuta Emocional oferece atendimento em Terapia de Reprocessamento Generativo (TRG) para adultos que desejam olhar com mais atenção para suas questões emocionais. O trabalho parte da compreensão da história e das necessidades individuais de cada pessoa.</p>
+188:         <p>Valéria Godoy oferece atendimento em Terapia de Reprocessamento Generativo (TRG) para adultos que desejam olhar com mais atenção para suas questões emocionais. O trabalho parte da compreensão da história e das necessidades individuais de cada pessoa.</p>
         <p>Valéria Godoy é Master Terapeuta especialista em Transtornos Graves, com excelentes resultados no tratamento de diversas condições, como depressão, ansiedade, bruxismo e fibromialgia.</p>
 189:         <p>A proposta é oferecer um processo terapêutico estruturado, com escuta respeitosa e foco nas questões que o cliente deseja trabalhar. Cada atendimento considera o ritmo, os limites e o contexto de quem busca apoio.</p>
 190:         <p>O atendimento é online para pessoas de qualquer lugar do mundo.</p>

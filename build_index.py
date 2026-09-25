@@ -130,7 +130,7 @@ content = """
   <section class="wrap my-16 text-center max-w-3xl mx-auto">
     <div class="trilho justify-center"><span>Terapia emocional com acolhimento e direcionamento</span></div>
     <h2 class="mb-6">Um olhar com mais atenção para suas questões emocionais</h2>
-    <p class="mb-4">A Valéria Godoy Terapeuta Emocional oferece atendimento em Terapia de Reprocessamento Generativo (TRG) para adultos que desejam olhar com mais atenção para suas questões emocionais. O trabalho parte da compreensão da história e das necessidades individuais de cada pessoa.</p>
+    <p class="mb-4">Valéria Godoy oferece atendimento em Terapia de Reprocessamento Generativo (TRG) para adultos que desejam olhar com mais atenção para suas questões emocionais. O trabalho parte da compreensão da história e das necessidades individuais de cada pessoa.</p>
     <p class="mb-8">A proposta é oferecer um processo terapêutico estruturado, com escuta respeitosa e foco nas questões que o cliente deseja trabalhar. Cada atendimento considera o ritmo, os limites e o contexto de quem busca apoio, com atendimento online para pessoas de qualquer lugar do mundo.</p>
     <a href="/sobre" class="btn btn--secundario">Conheça Valéria Godoy</a>
   </section>
