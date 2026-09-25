@@ -211,6 +211,7 @@ raw_text = r"""
 206:     </div>
 207:   </section>
 
+  <div style="height: 6rem;"></div>
   <section class="wrap bloco" style="padding-block: var(--e6); text-align: center;">
     <div class="trilho" style="justify-content: center;"><span>Impacto e Resultados</span></div>
     <h2 style="margin-top: var(--e2); margin-bottom: var(--e5);">Uma trajetória de transformação</h2>
