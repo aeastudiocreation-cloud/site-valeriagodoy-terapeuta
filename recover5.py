@@ -151,7 +151,7 @@ raw_text = r"""
 148:     </div>
 149:   </section>
 150: 
-  <div style="height: 4rem;"></div>
+  <div style="height: 2rem;"></div>
 151:   <section class="wrap bloco">
 152:     <div class="trilho"><span>Benefícios e diferenciais</span></div>
 153:     <h2>Por que escolher Valéria Godoy como sua terapeuta TRG?</h2>
